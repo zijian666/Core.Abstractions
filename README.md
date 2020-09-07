@@ -1,2 +1,8 @@
-# Core.Abstractions
-å…¨æ˜¯æŽ¥å£å’Œå§”æ‰˜å®šä¹‰,ä¸»è¦ç”¨äºŽç»„ä»¶ä¹‹é—´çš„è§£è€¦
+# zijian666.Core.Abstractions
+zijian666 ÏµÁÐ×é¼þµÄ»ù´¡³éÏó¶¨Òå
+
+# ¸üÐÂÈÕÖ¾
+### [1.0.0.0] 2020.09.06
++ ×Ö·û´®ÐòÁÐ»¯Æ÷
++ Êý¾Ý×ª»»Æ÷
++ ·´Éä±àÒëÆ÷

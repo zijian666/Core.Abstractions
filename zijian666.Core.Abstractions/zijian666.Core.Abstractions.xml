@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>zijian666.Core.Abstractions</name>
+    </assembly>
+    <members>
+        <member name="T:zijian666.Core.Abstractions.IFormatterConverterExtensions">
+            <summary>
+            数据转换扩展接口
+            </summary>
+        </member>
+        <member name="M:zijian666.Core.Abstractions.IFormatterConverterExtensions.ConvertOrDefault``1(System.Runtime.Serialization.IFormatterConverter,System.Object,``0)">
+            <summary>
+            转换对象到指定的类型,如果失败返回默认值
+            </summary>
+        </member>
+        <member name="M:zijian666.Core.Abstractions.IFormatterConverterExtensions.ConvertOrDefault(System.Runtime.Serialization.IFormatterConverter,System.Object,System.Type,System.Object)">
+            <summary>
+            转换对象到指定的类型,如果失败返回默认值
+            </summary>
+        </member>
+        <member name="M:zijian666.Core.Abstractions.IFormatterConverterExtensions.TryConvert``1(System.Runtime.Serialization.IFormatterConverter,System.Object,``0@)">
+            <summary>
+            转换对象到指定的类型,如果失败返回默认值
+            </summary>
+        </member>
+        <member name="M:zijian666.Core.Abstractions.IFormatterConverterExtensions.TryConvert(System.Runtime.Serialization.IFormatterConverter,System.Object,System.Type,System.Object@)">
+            <summary>
+            转换对象到指定的类型,如果失败返回默认值
+            </summary>
+        </member>
+        <member name="T:zijian666.Core.Abstractions.IFormatterConverterExtra">
+            <summary>
+            数据转换器扩展接口
+            </summary>
+        </member>
+        <member name="M:zijian666.Core.Abstractions.IFormatterConverterExtra.TryConvert``1(System.Object,``0@)">
+            <summary>
+            尝试转换
+            </summary>
+        </member>
+        <member name="M:zijian666.Core.Abstractions.IFormatterConverterExtra.TryConvert(System.Object,System.Type,System.Object@)">
+            <summary>
+            尝试转换
+            </summary>
+        </member>
+        <member name="T:zijian666.Core.Abstractions.ISlot`1">
+            <summary>
+            功能插槽
+            </summary>
+            <typeparam name="Feature"></typeparam>
+        </member>
+        <member name="T:zijian666.Core.Abstractions.MemberGetter`1">
+            <summary>
+            属性或字段的取值方法的委托
+            </summary>
+        </member>
+        <member name="T:zijian666.Core.Abstractions.MemberSetter`1">
+            <summary>
+            属性或者字段的设置方法的委托
+            </summary>
+        </member>
+        <member name="T:zijian666.Core.Abstractions.MethodCaller`1">
+            <summary>
+            执行指定方法的委托
+            </summary>
+        </member>
+        <member name="T:zijian666.Core.Abstractions.ObjectCreator`1">
+            <summary>
+            对象构造函数的委托
+            </summary>
+        </member>
+        <member name="T:zijian666.Core.Abstractions.IReflectCompiler">
+            <summary>
+            反射编译器
+            </summary>
+        </member>
+        <member name="M:zijian666.Core.Abstractions.IReflectCompiler.CompileCreator``1(System.Reflection.ConstructorInfo)">
+            <summary>
+            编译一个构造函数的委托
+            </summary>
+        </member>
+        <member name="M:zijian666.Core.Abstractions.IReflectCompiler.CompileGetter``1(System.Reflection.PropertyInfo)">
+            <summary>
+            编译属性取值委托
+            </summary>
+        </member>
+        <member name="M:zijian666.Core.Abstractions.IReflectCompiler.CompileSetter``1(System.Reflection.PropertyInfo)">
+            <summary>
+            编译设置属性值的委托
+            </summary>
+        </member>
+        <member name="M:zijian666.Core.Abstractions.IReflectCompiler.CompileGetter``1(System.Reflection.FieldInfo)">
+            <summary>
+            编译字段取值委托
+            </summary>
+        </member>
+        <member name="M:zijian666.Core.Abstractions.IReflectCompiler.CompileSetter``1(System.Reflection.FieldInfo)">
+            <summary>
+            编译设置字段值的委托
+            </summary>
+        </member>
+        <member name="M:zijian666.Core.Abstractions.IReflectCompiler.CompileCaller``1(System.Reflection.MethodInfo)">
+            <summary>
+            编译执行方法的委托
+            </summary>
+        </member>
+        <member name="T:zijian666.Core.Abstractions.IStringSerializer">
+            <summary>
+            字符串序列化器
+            </summary>
+        </member>
+        <member name="P:zijian666.Core.Abstractions.IStringSerializer.Protocol">
+            <summary>
+            序列化协议
+            </summary>
+        </member>
+        <member name="M:zijian666.Core.Abstractions.IStringSerializer.ToString(System.Object)">
+            <summary>
+            对象转为字符串
+            </summary>
+            <param name="context">转换上下文</param>
+            <param name="value">对象实例</param>
+            <returns></returns>
+        </member>
+        <member name="M:zijian666.Core.Abstractions.IStringSerializer.ToObject(System.String,System.Type)">
+            <summary>
+            字符串转为泛型对象
+            </summary>
+            <typeparam name="T">转换类型</typeparam>
+            <param name="context">转换上下文</param>
+            <param name="value">对象实例</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

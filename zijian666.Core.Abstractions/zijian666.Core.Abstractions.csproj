@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>1.0.0.0</Version>
+    <Authors>zijian</Authors>
+    <Product>zijian</Product>
+    <Description>常用接口，委托，拓展方法，zjian系列组件的核心抽象声明</Description>
+    <Copyright>Copyright © 2020 - 2021 zijian</Copyright>
+    <PackageTags>zijian,zijian666</PackageTags>
+    <PackageIcon>icon.jpg</PackageIcon>
+    <PackageProjectUrl>https://github.com/zijian666/Core.Abstractions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/zijian666/Core.Abstractions</RepositoryUrl>
+    <RepositoryType>C#</RepositoryType>
+    <PackageReleaseNotes># [1.0.0.0] 2020.09.06
++ 字符串序列化器
++ 数据转换器
++ 反射编译器</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>C:\Users\blqw\Source\Repos\zijian666\Core.Abstractions\zijian666.Core.Abstractions\zijian666.Core.Abstractions.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\blqw\Source\Repos\zijian666\Core.Abstractions\zijian666.Core.Abstractions\zijian666.Core.Abstractions.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\icon.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
