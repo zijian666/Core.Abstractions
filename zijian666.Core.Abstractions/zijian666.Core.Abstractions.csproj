@@ -16,6 +16,7 @@
 + 字符串序列化器
 + 数据转换器
 + 反射编译器</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
